@@ -1,0 +1,8 @@
+public int[] makePi() {
+  
+  int[] makePI = new int[3];
+  makePI[0] = 3;
+  makePI[1] = 1;
+  makePI[2] = 4;
+  return makePI;
+}
