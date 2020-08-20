@@ -1,0 +1,13 @@
+public int countEvens(int[] nums) {
+  
+  int antalLigeTal = 0;
+  
+  for (int i = 0; i < nums.length; i ++){
+  int tal = nums[i];
+  boolean checkOmLige = (tal%2 == 0);
+  if(checkOmLige){antalLigeTal++;}
+  }
+  
+  return antalLigeTal;
+  
+}
